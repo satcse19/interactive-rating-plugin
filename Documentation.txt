@@ -1,0 +1,139 @@
+📌 Interactive Rating Plugin Documentation
+✨ Version 1.0 | For WordPress | by devtushar.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 TABLE OF CONTENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 🌟 Overview
+2. 🚀 Features
+3. ⚙️ Installation
+4. 🛠️ Usage
+   - 4.1 📝 Adding a Survey
+   - 4.2 🖥️ Admin Dashboard
+   - 4.3 ❓ Question Management
+   - 4.4 📊 Response Data
+5. 🎨 Customization
+   - 5.1 🎨 CSS Styling
+   - 5.2 ⚡ JavaScript
+6.   Technical Details
+   - 6.1 🗃️ Database Structure
+   - 6.2 📡 AJAX Endpoints
+   - 6.3 ⚓ Shortcode
+   - 6.4 🪝 Hooks
+7. 💡 Best Practices
+8. 🆘 Support
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 🌟 OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The Interactive Rating Plugin allows you to create engaging rating surveys with:
+- Visual rating scales 📊
+- Email collection ✉️
+- Comprehensive analytics 📈
+- Easy WordPress integration 🖥️
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. 🚀 KEY FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✔ Customizable rating questions
+✔ Visual 0-10 scale interface
+✔ Response tracking with timestamps
+✔ Email collection for follow-ups
+✔ CSV export functionality
+✔ Intuitive admin dashboard
+✔ Mobile-responsive design
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. ⚙️ INSTALLATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 📦 Upload plugin to /wp-content/plugins/
+2. 🔌 Activate in WordPress admin
+3. 🗃️ Database tables auto-created
+4. 🎉 Ready to use!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. 🛠️ USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4.1 📝 ADDING A SURVEY
+Simply use: [interactive_rating_survey] 
+in any post, page, or widget area.
+
+4.2 🖥️ ADMIN DASHBOARD
+Access via: WordPress admin → "Rating Surveys"
+
+TABS:
+• Questions: Manage survey questions
+• Submissions: View responses
+• Add New: Create questions
+
+4.3 ❓ QUESTION MANAGEMENT
+For each question set:
+- Question Text
+- Min/Max Labels (e.g., "Poor" to "Excellent")
+- Min/Max Values (default 0-10)
+- Display Order
+
+4.4 📊 RESPONSE DATA
+Collected per session:
+✉️ Email (optional)
+📅 Date
+⭐ All question ratings
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. 🎨 CUSTOMIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5.1 🎨 CSS STYLING
+Override these files:
+• style.css (frontend)
+• admin-style.css (dashboard)
+
+5.2 ⚡ JAVASCRIPT
+Main files:
+• script.js (frontend)
+• admin-script.js (dashboard)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. 🧠 TECHNICAL DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6.1 🗃️ DATABASE TABLES
+1. wp_irp_questions (survey questions)
+2. wp_irp_responses (user answers)
+
+6.2 📡 AJAX ENDPOINTS
+Frontend:
+• irp_get_question
+• irp_save_response
+• irp_save_email
+
+Admin:
+• irp_get_question_data
+• irp_save_question
+• irp_delete_question
+• irp_export_csv
+
+6.3 ⚓ SHORTCODE
+Primary: [interactive_rating_survey]
+
+6.4 🪝 HOOKS
+Standard WordPress:
+• Activation/deactivation
+• wp_enqueue_scripts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. 💡 BEST PRACTICES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔹 Keep rating scales consistent (0-10 recommended)
+🔹 Use clear min/max labels
+🔹 Limit to 5-10 questions max
+🔹 Regularly export response data
+🔹 Test on mobile devices
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. 🆘 SUPPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For help or feature requests:
+🌐 devtushar.com
+✉️ tusher.nwu19@gmail.com
+
+💖 Enjoy using the Interactive Rating Plugin!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
