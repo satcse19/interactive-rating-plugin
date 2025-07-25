@@ -60,7 +60,8 @@ Simply use the shortcode in any post, page, or widget area:
 ```html
 [interactive_rating_survey]
 
-https://github.com/satcse19/interactive-rating-plugin/blob/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_1.jpg
-https://github.com/satcse19/interactive-rating-plugin/blob/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_2.jpg
-https://github.com/satcse19/interactive-rating-plugin/blob/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_3.jpg
+![Screenshot 1](https://raw.githubusercontent.com/satcse19/interactive-rating-plugin/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_1.jpg)
+![Screenshot 2](https://raw.githubusercontent.com/satcse19/interactive-rating-plugin/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_2.jpg)
+![Screenshot 3](https://raw.githubusercontent.com/satcse19/interactive-rating-plugin/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_3.jpg)
+
 
