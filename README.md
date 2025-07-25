@@ -57,11 +57,14 @@ The Interactive Rating Plugin allows you to create engaging rating surveys with:
 
 ### 📝 Adding a Survey  
 Simply use the shortcode in any post, page, or widget area:  
-```html
-[interactive_rating_survey]
+
 
 ![Screenshot 1](https://raw.githubusercontent.com/satcse19/interactive-rating-plugin/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_1.jpg)
 ![Screenshot 2](https://raw.githubusercontent.com/satcse19/interactive-rating-plugin/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_2.jpg)
 ![Screenshot 3](https://raw.githubusercontent.com/satcse19/interactive-rating-plugin/1ee73b929b73aa3493ab4e24ff32d08164d2aa61/Screenshot_3.jpg)
+```html
+[interactive_rating_survey]
+
+
 
 
